@@ -40,6 +40,12 @@ max_brand
 val min_brand = comments_by_brand_df.sort($"comments".asc).first()
 min_brand
 
+// range of post dates
+// see most recent post timestamp
+val max_post_ts = data_df.sort("$post_ts".desc).first()
+// see how far back posts go using post timestamp
+val min_post_ts = data_df.sort("$post_ts".asc).first()
+
 //see which users comment the most
 val users = data.map(line=>line._5)
 users.countByValue()
