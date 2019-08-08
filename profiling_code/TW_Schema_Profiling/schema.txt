@@ -1,0 +1,59 @@
+SCHEMA [relevant-columns]
+column names, description, and their data types
+
+
+Col Name: Brand
+Description: Hashtag of relevant brand, i.e. “#glossier”
+Data Type: String
+
+Col Name: user_id
+Description: unique twitter ID to each user who tweeted this tweet (data is tweet specific)
+Data Type: Integer
+
+Col Name: status_id
+Description: unique twitter ID to the specific post (retweets excluded during data ingestion)
+Data Type: Integer
+
+Col Name: created_at
+Description: timestamp of tweet posting.
+Data Type: Timestamp formatted as  YYYY-MM-DD 00:00:00
+
+Col Name: created_at
+Description: timestamp of tweet posting.
+Data Type: Timestamp formatted as  YYYY-MM-DD 00:00:00
+
+Col Name: screen_name
+Description: user who tweeted the specific tweet’s screen name (publically visible, linked directly to account creation)
+Data Type: String
+
+Col Name: text *****
+Description: actual text of tweet, containing the hashtag. Will be subject to further data analysis (i.e. sentiment analysis)
+Data Type: String
+
+Col Name: favorite_count
+Description: number of people who favorited the tweet
+Data Type: Integer
+
+Col Name: retweet_count
+Description: number of people who retweeted the tweet
+Data Type: Integer
+
+Col Name: status_url
+Description: url of the tweet
+Data Type: String
+
+Col Name: name
+Description: displayed “name” of user (different to screenname)
+Data Type: String
+
+Col Name: description
+Description: user’s displayed description on their bio
+Data Type: String
+
+Col Name: followers_count
+Description: number of followers of the user
+Data Type: Integer
+
+Col Name: account_created_at
+Description: timestamp of user’s account creation
+Data Type: Timestamp formatted as  YYYY-MM-DD 00:00:00 —> modified to be year (integer)
