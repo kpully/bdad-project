@@ -22,4 +22,4 @@ screenshots/: this directory consists of screenshots of our dashboard
 
 ## Input data
 Instagram data: hdfs: kp1276/instagram_comments.csv. 
-Twitter data: hdfs:  
+Twitter data: hdfs:  aap703/tw_data/*
