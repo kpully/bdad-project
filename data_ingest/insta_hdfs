@@ -1,2 +1,4 @@
+#this bash script removes the current version of instagram_comments.csv from hdfs and puts the new version in hdfs
+
 hdfs dfs -rm instagram_comments.csv
 hdfs dfs -put instagram_comments.csv

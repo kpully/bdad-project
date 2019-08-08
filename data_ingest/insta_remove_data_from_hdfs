@@ -1,0 +1,23 @@
+#the commands in this script remove the current specified files from hdfs in the case that they need to be re-processed
+
+#queries
+hdfs dfs -rm -r insta_cleaned/queries
+hdfs dfs -rm -r insta_cleaned/queries_detailed
+rm -r queries_detailed
+rm -r queries
+
+#top_commenters
+hdfs dfs -rm -r insta_cleaned/top_commenters
+hdfs dfs -rm -r insta_cleaned/top_commenters_comments
+rm -r top_commenters
+rm -r top_commenters_comments
+
+#cross_comments
+hdfs dfs -rm -r insta_cleaned/user_brands_grouped_multi
+hdfs dfs -rm -r insta_cleaned/comment_overlap
+rm -r user_brands_grouped_multi	
+rm -r comment_overlap
+
+#comment_types
+hdfs dfs -rm -r insta_cleaned/comment_types
+rm -r comment_types	
