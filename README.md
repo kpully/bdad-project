@@ -1,7 +1,7 @@
 # bdad-project
 
 ## Application
-Our application consists of a Tableau dashboard, which we have saved as a packaged workbook wiht the data sources embedded. The user should be able to open our dashboard for viewing simply by opening the "dashboard" file in app_data/.  
+Our application consists of a Tableau dashboard, which we have saved as a packaged workbook with the data sources embedded. The user should be able to open our dashboard for viewing simply by opening the "dashboard" file in app_data/.  
 
 ## Directories and files
 app_data/: this directory consists of our final application, "dashboard", which is a Tableau packaged workbook. 
